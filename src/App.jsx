@@ -5,6 +5,7 @@ import About from './components/About';
 import React, { useState } from 'react';
 import Alert from './components/Alert';
 import { Routes, Route } from 'react-router-dom'
+import Footer from './components/Footer';
 
  
 function App() {
@@ -43,6 +44,8 @@ function App() {
          <Route index element={ <TextForm showAlert={showAlert} heading="Try TextUtils - word counter, character counter, remove extra spaces" mode={mode}/>}></Route>
          <Route path='/About' element={<About />}></Route>
     </Routes>
+
+    <Footer/>
     </> 
   );
 }
