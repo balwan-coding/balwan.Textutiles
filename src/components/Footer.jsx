@@ -1,9 +1,9 @@
 import React from 'react'
 
-export default function Footer() {
+export default function Footer(props) {
   return (
-    <footer>
-    <div className="footer" >
+    <footer style={{color: props.mode==='dark'?'white':'#042743'}}>
+    <div className="footer" style={{color: props.mode==='dark'?'white':'#042743'}} >
         <p>This is footer section.</p>
         <ul className="socials">
             <li><a href="#"><i className="fa-brands fa-facebook"></i></a></li>

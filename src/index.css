@@ -147,8 +147,9 @@
 footer{
 background:whitesmoke;
  height: auto; 
-width: 100vw;
+ width: 100vw;
 padding: 20px 0 0 0;
+box-sizing: border-box;
 }
 /*content*/
 .footer{
@@ -192,12 +193,14 @@ text-align: center;
 /* copyright*/
 .footer-copyright{
   background:whitesmoke;
-  width: 100vw;
+  width: 100%;
   padding: 20px 20px 50px 20px;
+  box-sizing: border-box;
 }
 .footer-copyright p{
   font-size: 14px;
   word-spacing: 2px;
   align-items: center;
   justify-content: center;
+  box-sizing: border-box;
 }
